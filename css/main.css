@@ -14,10 +14,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     
 }
 a {
@@ -48,19 +44,11 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 ul.posts li {
