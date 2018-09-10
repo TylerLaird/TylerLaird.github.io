@@ -48,7 +48,12 @@ img {
     width: auto\9; /* ie8 */
 }
 
-.banner-image {
+.banner {
+    width: 100%;
+    display: block;
+}
+  
+.banner > .banner-image {
     width: 100%;
     display: block;
 }
