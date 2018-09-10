@@ -53,7 +53,7 @@ img {
     display: block;
 }
   
-.banner-image {
+.banner > .banner-image {
     width: 100%;
     display: block;
 }
