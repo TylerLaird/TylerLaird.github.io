@@ -4,16 +4,17 @@ body {
 }
 
 nav {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-top: 1px solid #d5d5d5;
 }
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -48,10 +49,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 ul.posts { 
