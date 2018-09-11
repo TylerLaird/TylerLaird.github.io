@@ -2,14 +2,18 @@ body {
     margin: 60px auto;
     width: 100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
-    font-weight: bold;
+
+nav {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -19,10 +23,6 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #999;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 a:hover {
     text-decoration: underline;
@@ -44,6 +44,10 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul.posts { 
